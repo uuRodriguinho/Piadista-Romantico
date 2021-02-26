@@ -19,7 +19,8 @@ const piadas = ["Havia dois caminhões voando e um caiu. Pq o outro continuou vo
     'Um caipira chega à casa de um amigo que está assistindo tv e pergunta\n\n- E aí? Firme?\n\nEntão o outro responde:\n\n- Não, só futebor.',
     'Por que Napoleão era sempre chamado para as festa na França?\n\nÈ porque ele era Bom Na Party :)', 'Por que o pinheiro não se perde na floreta?\n\nÉ porque ele tem uma pinha :)',
     'Então quando foi que os americanos comeram carne plea primeira vez?\n\nQuando chegou Cristóvão Com Lombo ;)', 
-    'O que acontece quando chove na Inglaterra?\n\nVira Inglalama ;)']   
+    'O que acontece quando chove na Inglaterra?\n\nVira Inglalama ;)', 'O que o tomate foi fazer no banco?\n\nTirar extrato :)',
+    'Como se chama a pessoa que viu o Thor?\n\n Vi-Thor ;)', 'Qual o melhor chá pra calvice?\n\nChá-peu :)']   
 
 // eu uso essa função pra contar quantas piadas tem nesse bolo gigante de piadas ruins
 
@@ -37,7 +38,7 @@ const piadas = ["Havia dois caminhões voando e um caiu. Pq o outro continuou vo
 
 
 const execute = (bot, msg, args) => {
-    return msg.channel.send(piadas[29]) //  lembrar de botar o getRandomInt(0, 30)
+    return msg.channel.send(piadas[getRandomInt(0, 33)]) //  lembrar de botar o getRandomInt(0, 30)
 }
 
 
