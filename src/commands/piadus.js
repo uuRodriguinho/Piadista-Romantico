@@ -18,7 +18,8 @@ const piadas = ["Havia dois caminhões voando e um caiu. Pq o outro continuou vo
     'Qual o nome do médico que veio do futuro?\n\nO extermina-a-dor-do-futuro ;)', 'O que é a maconha enrola no jornal?\nBaseado em fatos reais :)',
     'Um caipira chega à casa de um amigo que está assistindo tv e pergunta\n\n- E aí? Firme?\n\nEntão o outro responde:\n\n- Não, só futebor.',
     'Por que Napoleão era sempre chamado para as festa na França?\n\nÈ porque ele era Bom Na Party :)', 'Por que o pinheiro não se perde na floreta?\n\nÉ porque ele tem uma pinha :)',
-    'Então quando foi que os americanos comeram carne plea primeira vez?\n\nQuando chegou Cristóvão Com Lombo ;)']   
+    'Então quando foi que os americanos comeram carne plea primeira vez?\n\nQuando chegou Cristóvão Com Lombo ;)', 
+    ' que acontece quando chove na Inglaterra?\n\nVira Inglalama ;)']   
 
 
 // function counter(x) {
@@ -35,7 +36,7 @@ const piadas = ["Havia dois caminhões voando e um caiu. Pq o outro continuou vo
 
 
 const execute = (bot, msg, args) => {
-    return msg.channel.send(piadas[getRandomInt(0, 29)])
+    return msg.channel.send(piadas[29]) // getRandomInt(0, 30)
 }
 
 
